@@ -8,3 +8,11 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
+if (new File("../../runtime").exists()) {
+    includeBuild("../../runtime") {
+        dependencySubstitution {
+            substitute module('club.issizler.okyanus:runtime') with project(':')
+        }
+    }
+}

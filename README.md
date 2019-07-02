@@ -2,8 +2,9 @@
 
 This is an "advanced" mod template for Okyanus. It supports:
 
-* Viewing / Modifying (via mixins) Minecraft Internals
-* Launching the server automatically
+* Viewing / Modifying (via mixins) Minecraft Internals (Unsupported, be as careful as you are with Bukkit & NMS)
+* Using Runtime internal classes (Also Unsupported, these will break without telling you)
+* Launching the server from your IDE
 
 ## Setup
 
